@@ -158,6 +158,11 @@ jobs:
   - 尋找 `export default defineConfig`
   - 在函數裏填入 `base: '/vitepress/',`
 
+## 設置Build and deployment from GitHub Actions
+  - In your GitHub repo’s setting, navigate to `Settings` > `Pages` > `Source`. Change the source to `GitHub Actions` and save.
+
+![GitHub全自動部署-13.png](https://cloudflare-imgbed-7oz.pages.dev/file/1758989293234_GitHub全自動部署-13.png)
+
 ## Commit and Push
   ```bash
   git add .
